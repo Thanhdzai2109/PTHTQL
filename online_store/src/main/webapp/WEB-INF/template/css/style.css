@@ -1,0 +1,267 @@
+/*
+** Style Simple Ecommerce Theme for Bootstrap 4
+** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+*/
+/*.bloc_left_price {*/
+/*    color: #c01508;*/
+/*    text-align: center;*/
+/*    font-weight: bold;*/
+/*    font-size: 150%;*/
+/*}*/
+/*.category_block li:hover {*/
+/*    background-color: #007bff;*/
+/*}*/
+/*.category_block li:hover a {*/
+/*    color: #ffffff;*/
+/*}*/
+/*.category_block li a {*/
+/*    color: #343a40;*/
+/*}*/
+/*.add_to_cart_block .price {*/
+/*    color: #c01508;*/
+/*    text-align: center;*/
+/*    font-weight: bold;*/
+/*    font-size: 200%;*/
+/*    margin-bottom: 0;*/
+/*}*/
+/*.add_to_cart_block .price_discounted {*/
+/*    color: #343a40;*/
+/*    text-align: center;*/
+/*    text-decoration: line-through;*/
+/*    font-size: 140%;*/
+/*}*/
+/*.product_rassurance {*/
+/*    padding: 10px;*/
+/*    margin-top: 15px;*/
+/*    background: #ffffff;*/
+/*    border: 1px solid #6c757d;*/
+/*    color: #6c757d;*/
+/*}*/
+/*.product_rassurance .list-inline {*/
+/*    margin-bottom: 0;*/
+/*    text-transform: uppercase;*/
+/*    text-align: center;*/
+/*}*/
+/*.product_rassurance .list-inline li:hover {*/
+/*    color: #343a40;*/
+/*}*/
+/*.reviews_product .fa-star {*/
+/*    color: gold;*/
+/*}*/
+/*.pagination {*/
+/*    margin-top: 20px;*/
+/*}*/
+/*footer {*/
+/*    background: #343a40;*/
+/*    padding: 40px;*/
+/*    margin-top: 20px;*/
+/*}*/
+/*footer a {*/
+/*    color: #f8f9fa!important*/
+/*}*/
+/*.bgc{*/
+/*    background-image: url(image/Clothes+and+shoes-74_banner.jpg);*/
+/*    !*background-image: url("https://envato-shoebox-0.imgix.net/a553/ba21-ce80-45ee-82d4-120907cdb414/Clothes+and+shoes-74_banner.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=a9cc1545e602fe3d3e6c9faed39f0a84");*!*/
+/*}*/
+/*.show_txt{*/
+/*    display: inline-block;*/
+/*    width: 100%;*/
+/*    white-space: nowrap;*/
+/*    overflow: hidden !important;*/
+/*    text-overflow: ellipsis;*/
+/*}*/
+/*a .active{*/
+/*    color: white;*/
+/*}*/
+/*
+** Style Simple Ecommerce Theme for Bootstrap 4
+** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+*/
+.navbar-brand {
+    font-size: 26px;
+    font-weight: 900;
+}
+.navbar-dark .navbar-brand {
+    color: rgb(228,81,39);
+}
+.navbar-nav {
+    width: 60%;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn-success {
+    color: #fff;
+    background-color: rgb(28,36,47);
+    border-color: rgb(28,36,47);
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: rgb(228,81,39);
+    border-color: rgb(228,81,39);
+}
+.btn-secondary {
+    color: #fff;
+    background-color: rgb(28,36,47);
+    border-color: rgb(28,36,47);
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: rgb(228,81,39);
+    border-color: rgb(228,81,39);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: rgb(228,81,39);
+    opacity: 0.8;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(228,81,39);
+}
+
+/* home/category/sub-category */
+.breadcrumb-item a {
+    color: rgb(28,36,47);
+    font-weight: 600;
+}
+.bg-primary {
+    background-color: rgb(28,36,47) !important;
+}
+.card-header {
+    background-color: rgb(28,36,47) !important;
+}
+.list-group-item a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.card-title.show_txt a {
+    color: #333;
+}
+.row.sub-category {
+    padding-top: 0;
+}
+.row.price-add-to-card {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.col.price p {
+    color: rgb(228,81,39);
+    background-color: #fff;
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.col.price p:hover {
+    cursor: default;
+}
+
+/* footer */
+.back-to-top a {
+    color: rgb(228,81,39) !important;
+}
+
+/* .list-group-item a:hover {
+  background-color: #fff;
+} */
+.card-title {
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+.card-text {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+/* .. */
+.bloc_left_price {
+    color: rgb(228,81,39);
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: rgb(228,81,39);
+    cursor: pointer;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: #343a40;
+    padding: 40px;
+    margin-top: 20px;
+}
+footer a {
+    color: #f8f9fa !important;
+}
+.bgc {
+    background-image: url(image/Clothes+and+shoes-74_banner.jpg);
+    /*background-image: url("https://envato-shoebox-0.imgix.net/a553/ba21-ce80-45ee-82d4-120907cdb414/Clothes+and+shoes-74_banner.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=a9cc1545e602fe3d3e6c9faed39f0a84");*/
+}
+.show_txt {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+a .active {
+    color: white;
+}
+
+/* Footer */
+.row {
+    padding: 32px;
+}
+/*slide css ---------------------------------------------------*/
