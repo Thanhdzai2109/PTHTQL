@@ -18,7 +18,7 @@
     <h3 class="page-header">Thống kê</h3>
 
     <canvas id="myChart" width="600px" height="400px"></canvas>
-    <h4 style="text-align: center; padding-right: 10%">Biểu đồ tổng giá trị đơn hàng hoàn thành theo tháng</h4>
+    <h4 style="text-align: center; padding-right: 10% ; margin-left: -6%">Biểu đồ tổng giá trị đơn hàng hoàn thành theo tháng</h4>
 
 </div>
 <script type="text/javascript"
@@ -53,9 +53,13 @@
         }).then(data => {
             // Work with JSON data here
             console.log(data);
+            const  key =data.map(item => item.nguoiDung.hoTen);
+            for (var i = 0; i < key.length; i++){
+                label.push(key[i]);
+            }
             const names = data.map(item => item.tongGia);
                     for (var i = 0; i < names.length; i++) {
-                         label.push(names[i]+ "/" + names[i]);
+                         // label.push(names[i]+ "/" + names[i]);
                         dataForDataSets.push(names[i]/1000000);
                     }
         }).catch(err => {
