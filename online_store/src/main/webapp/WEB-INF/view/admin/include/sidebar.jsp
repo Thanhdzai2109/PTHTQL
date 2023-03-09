@@ -38,10 +38,6 @@
                     <a href="<c:url value='/admin/quan-ly-tai-khoan' />">
                         <span class="glyphicon glyphicon-th-list">&nbsp;</span>Tài khoản</a>
                 </li>
-                <li class="side-bar main-menu">
-                    <a href="<c:url value='/admin/lien-he' />">
-                        <span class="glyphicon glyphicon-th-list">&nbsp;</span>Liên hệ</a>
-                </li>
                 <li class="side-bar">
                     <a href="<c:url value='/admin/thong-tin-tai-khoan' />">
                         <span class="glyphicon glyphicon-user">&nbsp;</span>Thông tin tài khoản</a>
