@@ -32,7 +32,7 @@ function xuatHTML(cacDanhMuc) {
 }
 
 function onDeleteBrand(id) {
-    const deleteApi = "C"+id;
+    const deleteApi = "http://localhost:8080/api/danh-muc/xoa/"+id;
     fetch(deleteApi,{
         method:"DELETE"
     })
